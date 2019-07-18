@@ -1,0 +1,164 @@
+.socialMind-box {
+  width: 100%;
+  background: rgba(243, 245, 249, 1);
+}
+/* 列表选择 */
+.nav {
+  margin-top: 1px;
+  width: 100%;
+  height: 42px;
+  background: rgba(255, 255, 255, 1);
+
+  display: flex;
+  justify-content: space-between;
+}
+.nav-left {
+  width: 49%;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+.nav-right {
+  width: 50%;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+.nav_br {
+  margin-top: 12px;
+  height: 18px;
+  width: 1px;
+  background-color: rgba(227, 227, 227, 1);
+}
+.nav_cur {
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: rgba(48, 164, 255, 1);
+  border-bottom: 2px solid rgba(48, 164, 255, 1);
+}
+/* 筛选 */
+.selWarp {
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.filtrate {
+  margin-right: 10px;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  background: url(../../assets/img/screen.png) right 13px no-repeat;
+}
+.sel_ico1 {
+  margin-left: 5px;
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  background: url(../../assets/img/retract.png) no-repeat;
+}
+/* 列表 */
+.mesWarp {
+  margin-top: 14px;
+  text-align: left;
+  width: 100%;
+}
+/* 列表标题 */
+.name {
+  width: 100%;
+  height: 44px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  font-size: 16px;
+  line-height: 44px;
+  padding-left: 12px;
+  background: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.name img {
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+}
+/* 列表内容 */
+.message {
+  width: 100%;
+  min-height: 74px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.site {
+  font-size: 16px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 10px;
+  padding-left: 10px;
+  line-height: 22px;
+}
+.warn {
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  height: 37px;
+  line-height: 37px;
+}
+.warn_ico {
+  margin-top: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+/* 列表按钮操作 */
+.evaluate {
+  width: 100%;
+  height: 54px;
+  background: rgba(255, 255, 255, 1);
+}
+.btn_common {
+  margin-top: 11px;
+  display: inline-block;
+  width: 68px;
+  height: 32px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  border: 1px solid rgba(170, 170, 170, 1);
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: 32px;
+  text-align: center;
+}
+/* /deep/ .ivu-select-dropdown {
+  width: 280px;
+  overflow-x: scroll;
+}
+/deep/ .ivu-checkbox-inner {
+  margin-right: 8px;
+} */
+
+
+
+
+
+

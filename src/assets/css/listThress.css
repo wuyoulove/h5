@@ -1,0 +1,14 @@
+  /* 指定计划、评估按钮 */
+  .sign_btn {
+    margin-right: 15px;
+    float: right;
+  }
+  /* 当前列表查看按钮 */
+  .eval {
+    margin-right: 12px;
+    float: right;
+  }
+  /* 下辖列表查看按钮 */
+  .eval_more {
+    margin-left: 295px;
+  }
